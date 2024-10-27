@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-area {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    height: 100vh; /*viewport height */
+}
+
+/* section{
+    border: 2px solid blueviolet;
+} */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid salmon; */
+}
+
+.contentarea{
+    padding: 20px 50px;
+}
+
+.texts h1{
+    font-size: 46px;
+    margin:15px;
+}
+
+.texts p{
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn{
+    padding: 13px 35px;
+    border-radius: 4px;
+    margin-right: 25px;
+}
+
+.btn a:link{
+    text-decoration: none;
+}
+
+.primary-btn {
+    background: #4438CA;
+}
+
+.primary-btn a{
+    color: white;
+    font-size: 16px;
+}
+
+.secondary-btn {
+    background: white;
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.15);
+}
+
+.secondary-btn a {
+    color: black;
+    font-size: 16px;
+}
+
+.banner-image {
+    width: 600px;
+}
+.banner-image img{
+    width: 100%;
+}
